@@ -1,0 +1,18 @@
+{
+  "name": "get-manga",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Vinicius Prado <vinicavagna@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "puppeteer": "^14.1.1"
+  }
+}
